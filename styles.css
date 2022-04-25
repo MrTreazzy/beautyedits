@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  /* background-image: url(https://oir.mobi/uploads/posts/2021-03/1616609082_40-p-priyatnii-fon-dlya-glaz-45.png); */
+  background-color: rgb(228, 230, 233);
+  font-family: 'Supermercado One', cursive;
+  margin: 0;
+}
+h2 {
+  color:rgb(0, 141, 132);
+  text-shadow: 0 0 1px #000000;
+  margin: 25px 0 20px 0;
+  font-size: 26px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 60%;
+  justify-content: center;
+  margin: 0;
+}
+.posts {
+  display: grid;
+  box-shadow: 0 0 10px #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+  /*grid-template-rows: 1fr; */
+  width: 800px;
+}
+.post {
+  border-radius: 10px;
+  border-color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 90%;
+  width: 90%;
+}
+.userpublicate {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.avatarpublicate {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.usernamepublicate {
+  margin: 0;
+  margin-top: 10px;
+}
+h6 {
+  margin: 0;
+}
+.trend {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.trends {
+  border-radius: 10px;
+  height: 170px;
+  width: 240px;
+}
+.acherni {
+  color: #000000;
+  text-decoration: none;
+}

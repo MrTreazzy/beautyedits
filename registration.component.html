@@ -1,0 +1,37 @@
+<form action="action_page.php">
+  <div class="container">
+    <div class="item1">
+      <h1>Регистрация</h1>
+      <p>Заполните поля для регистрации аккаунта.</p>
+      <br>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Введите Email" name="email" id="email" required />
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Введите пароль" name="psw" id="password" required>
+
+      <label for="psw-repeat"><b>Повтор пароля</b></label>
+      <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+      <br>
+
+      <p>Создавая аккаунт Вы соглашаетесь с нашими <a href="#">Правилами конфеденциальности</a>.</p>
+    </div>
+    <button type="submit" class="registerbtn" id="submitbtn"><span class="textbutton">Зарегистрироваться</span></button>
+  </div>
+  <!-- <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a></p>
+  </div> -->
+</form>
+<!-- <script>
+	let email = document.getElementById("email")
+	let password = document.getElementById("password")
+	let submitbtn = document.getElementById("submitbtn")
+
+	submitbtn.onclick = () => {
+		let email1 = email.textContent
+		let password1 = password.textContent
+		// let user1 = [email1, password1]
+		console.log(email1)
+	}
+</script> -->

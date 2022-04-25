@@ -1,0 +1,58 @@
+.posts {
+  display: grid;
+  box-shadow: 0 0 10px #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 750px;
+}
+.post {
+  border-radius: 10px;
+  border-color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 90%;
+  width: 90%;
+}
+.userpublicate {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+.avatarpublicate {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.usernamepublicate {
+  margin: 0;
+  margin-top: 10px;
+}
+h6 {
+  margin: 0;
+}
+.trend {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.trends {
+  border-radius: 10px;
+  height: 170px;
+  width: 225px;
+}
+.contactusdiv {
+  display: grid;
+  height: 22px;
+  width: 150px;
+}
+.acontactus {
+  color: #000000;
+  text-decoration: none;
+  padding: 1px 0 4px 8px;
+}
+.acontactus:hover {
+  background-color: rgb(199, 199, 199);
+  border-radius: 5px;
+}

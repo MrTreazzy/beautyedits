@@ -1,0 +1,36 @@
+.substitle {
+    margin: 20px 0 20px 0;
+}
+.subs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+.avatar {
+    border-radius: 50%;
+    align-items: center;
+}
+.subsnickname {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 15px 0 0 0;
+}
+.subscount {
+    font-size: 13px;
+    margin: 3px 0 20px 0;
+    color: rgb(105, 105, 105);
+}
+.contactusdiv {
+    display: grid;
+    height: 22px;
+    width: 150px;
+}
+.acontactus {
+    color: #000000;
+    text-decoration: none;
+    padding: 1px 0 4px 8px;
+}
+.acontactus:hover {
+    background-color: rgb(199, 199, 199);
+    border-radius: 5px;
+}

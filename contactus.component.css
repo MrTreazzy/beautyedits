@@ -1,0 +1,29 @@
+.textarea {
+    min-width: 300px;
+    min-height: 100px;
+    max-width: auto;
+    max-height: auto;
+}
+.pochta {
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0;
+}
+.registerbtn {
+  background-color: #459c48;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity:1;
+}
+.submitdiv {
+    width: 35%;
+}
